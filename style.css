@@ -38,7 +38,7 @@ section{
 
 .button-style{
     text-decoration: none;
-    background-image: linear-gradient(90deg,#16a085,#2980b9 );
+    background-image: linear-gradient(90deg,#FB6756,#684DDB );
     color: white;
     padding: 10px 25px;
     border-radius: 15px;
@@ -64,7 +64,10 @@ footer{
 
 .box{
     height: 50%;
-    box-shadow: 10px 10px 50px gray;
+    width: 37%;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 10px solid;
+    background-color: white;
 }
 
 .others-section{
@@ -74,6 +77,10 @@ footer{
 }
 
 .exp{
-    background-color: white;
-    
+    border-image: linear-gradient(180deg,#016B38,#F7C1AB);
+    border-image-slice: 1;
+}
+.skd{
+    border-image: linear-gradient(180deg,tomato,purple);
+    border-image-slice: 1;
 }
