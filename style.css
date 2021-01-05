@@ -3,22 +3,77 @@
     padding: 0;
 }
 body{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Caudex', serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 100px;
+}
+p{
+    margin-bottom: 30px;
 }
 .color-highlight{
     color: orange;
 }
-.top-section{
+section{
     width: 100%;
     height: 500px;
 }
+.top-section{
+    background-image: url("./images/banner.png");
+    background-repeat: no-repeat;
+}
 .half{
     width:40%;
-    margin-left: 5%;
-    padding-left: 2%;
-    
+    margin-left:5%;
+    padding:2%;
+    float: left;
 }
 .half img{
+    margin-top: 10px;
     width: 100%;
-    height: 450px;
+    height: 400px;
+
+}
+
+.button-style{
+    text-decoration: none;
+    background-image: linear-gradient(90deg,#16a085,#2980b9 );
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+   
+}
+.middle-section{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+.experi{
+    line-height: 30px;
+}
+.list{
+    list-style: none;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.box{
+    height: 50%;
+    box-shadow: 10px 10px 50px gray;
+}
+
+.others-section{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp{
+    background-color: white;
+    
 }
