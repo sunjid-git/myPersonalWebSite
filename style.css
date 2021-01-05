@@ -5,9 +5,13 @@
 body{
     font-family: 'Caudex', serif;
 }
-h1{
+.top{
     font-size: 50px;
     line-height: 100px;
+}
+.headline{
+    font-size: 40px;
+    color: #51C58B;
 }
 p{
     margin-bottom: 30px;
@@ -44,6 +48,10 @@ section{
     border-radius: 15px;
    
 }
+
+.button-style{
+    transform: scale(1.05);
+}
 .middle-section{
     background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
@@ -59,7 +67,8 @@ section{
 
 footer{
     text-align: center;
-    padding: 10px;
+    margin: 10px auto;
+   
 }
 
 .box{
@@ -68,6 +77,10 @@ footer{
     box-shadow: 10px 10px 30px gray;
     border-left: 10px solid;
     background-color: white;
+    transition-duration: .5s;
+}
+.box:hover{
+    transform: scale(1.05);
 }
 
 .others-section{
@@ -77,10 +90,26 @@ footer{
 }
 
 .exp{
-    border-image: linear-gradient(180deg,#016B38,#F7C1AB);
+    border-image: linear-gradient(180deg,#5C1102,#684DDB);
     border-image-slice: 1;
 }
 .skd{
-    border-image: linear-gradient(180deg,tomato,purple);
+    border-image: linear-gradient(180deg,#08F4C4,#369FF3);
     border-image-slice: 1;
+}
+
+
+#git{
+    font-size: 35px;
+    margin-left: 50px;
+    color: black;
+}
+
+#lin{
+    font-size: 35px;
+    margin-left: 50px;
+    color: #0A66C2;
+}
+#name{
+    color: #44B47A;
 }
