@@ -46,16 +46,31 @@ section{
     color: white;
     padding: 10px 25px;
     border-radius: 15px;
-   
+    
+    transition-duration: .8s;
+    
 }
 
-.button-style{
-    transform: scale(1.05);
+.button-style:hover{
+    color: #47B87E;
+    font-size: 20px;
+    box-shadow: 10px 10px 30px gray;
+
 }
+
+.hline{
+    font-size: 35px;
+    color: #3CA96F;
+}
+
 .middle-section{
     background-image: url("./images/dream-bg.png");
     background-repeat: no-repeat;
     background-position:  right;
+    line-height: 30px;
+}
+#space{
+    margin-top:10px ;
 }
 .experi{
     line-height: 30px;
@@ -78,6 +93,7 @@ footer{
     border-left: 10px solid;
     background-color: white;
     transition-duration: .5s;
+    border-radius: 0 25px 25px 0 ;
 }
 .box:hover{
     transform: scale(1.05);
